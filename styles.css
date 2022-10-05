@@ -1,26 +1,43 @@
-h1 {
-    font-size: 2.25em;
-    color:midnightblue
+#title {
+color: orangered;
+font-size: 64px;
 }
 
-h2 {
+
+.large-font {
+    font-size: x-large;
+    font-weight:900
+}
+.demand {
+    font-variant-caps: petite-caps;
+}
+.funky-color{
+    color:rgb(224, 74, 10);
+}
+.funky-color.large-font{
+    background-color: violet;
+}
+ul > li {
+    font-weight: 400;
+    background-color: rgb(129, 105, 105);
+}
+
+
+h1,h2 {
+    font-family: cursive;
     font-size: 2.0em;
     color:midnightblue
 }
-h3 {
-    font-size: 1.75em;
-    color:midnightblue
+h1 em {
+    color:darkred 
+
 }
-h4 {
-    font-size: 1.5em;
-    color:midnightblue
-}
-body {
+/* h3,h4 {
+    font-family:fantasy;
+    font-size: 1.25em;
+    background-color:rgb(201, 77, 220)
+} */
+html {
     background-color:wheat;
-}
-p {
-    font-size: 1.25em;
-}
-li {
-    font-size: 1.25em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
